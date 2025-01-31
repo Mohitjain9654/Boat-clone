@@ -1,0 +1,487 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: #ebfffe;
+  height: 90vh;
+}
+
+.upper-nav {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* position: relative; */
+  font-size: 13px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 7px;
+}
+
+.boat {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.lower-nav {
+  height: 11vh;
+  display: flex;
+  position: sticky;
+  top: 0;
+  /* position: -webkit-sticky; */
+  /* position: fixed; */
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  font-size: x-large;
+  box-shadow: 0px 3px 8px rgb(71, 70, 70);
+  z-index: 1;
+}
+
+#lower{
+  position: sticky;
+  top: 0;
+}
+
+.boathead {
+  height: 5vh;
+}
+
+.logo {
+  height: 3vh;
+}
+
+input {
+  background-color: #d6fcfa;
+  width: 18vw;
+  padding: 10px;
+  border-radius: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  margin: 5px;
+  border: 2px solid white;
+}
+
+.boat > span {
+  margin: 20px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 330;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.image-top {
+  height: 70vh;
+  /* width: 45vw; */
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+/* .cart{
+    height: 3px;
+} */
+
+.content:nth-child(1) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 84px;
+}
+
+.content :nth-child(2) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 84px;
+}
+
+.content :nth-child(3) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.content :nth-child(4) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 7px;
+  width: 10vw;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.seller {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.view {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.item {
+  background-image: linear-gradient(#ebfffe, #ffffff);
+}
+
+.subitem {
+  display: flex;
+  /* margin:10px 50px; */
+}
+
+.Earbuds {
+  background-color: #fafafa;
+  border: 2px solid #cfcdcd;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 9px;
+}
+
+.Earbuds > img {
+  width: 100%;
+  height: 46vh;
+  margin-right: 32px;
+  border-radius: 5% 5% 0 0;
+}
+
+.time {
+  width: 13vw;
+  display: flex;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(247, 247, 88);
+  padding: 5px;
+  border-radius: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  border: 2px solid white;
+  /* margin: 2px white; */
+  top: -17px;
+  left: 55px;
+}
+
+.airdopes {
+  margin: 0px 20px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.airdopes > div {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.circle {
+  display: flex;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.price {
+  margin: 0px 20px;
+}
+
+.price > span:nth-child(1) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.price > span:nth-child(2) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.price > span:nth-child(3) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  color: rgb(95, 185, 72);
+}
+
+.Addcart {
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  width: 18vw;
+  border-radius: 10px;
+}
+
+.watch {
+  display: flex;
+  background-image: linear-gradient(#ffffff, #fff3da);
+  height: 80vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-watch {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 50px;
+  align-items: center;
+  justify-content: left;
+}
+
+.smart {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 84px;
+}
+
+.content-watch :nth-child(2) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.content-watch :nth-child(3) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 7px;
+  width: 10vw;
+}
+
+.watches-item {
+  background-image: linear-gradient(#fff3da, #ebfffe);
+}
+
+.Neckband {
+  background-image: linear-gradient(#ebfffe, #f2edfe);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Neckbands-item {
+  background-image: linear-gradient(#f2edfe, #f1f8f7);
+}
+
+.img-neckband {
+  height: 80vh;
+  margin-right: 20px;
+}
+
+.Headphone {
+  background-image: linear-gradient(#ffffff, #dfeeeb);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Headphone-item {
+  background-image: linear-gradient(#dfeeeb, #fff);
+}
+
+.bt-headphone-img {
+  background-color: #e3e3e3;
+}
+
+.Speaker {
+  background-image: linear-gradient(#ffffff, #e6ecff);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img-speaker {
+  height: 60vh;
+  margin-right: 40px;
+}
+
+.Speaker-item {
+  background-image: linear-gradient(to bottom, #e5ebff, #ffffff);
+}
+
+.Party-Speaker {
+  background-image: linear-gradient(#ffffff, #eddfcb);
+  height: 60vh;
+  display: flex;
+  font-display: row !important;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Party-Speaker-item {
+  background-image: linear-gradient(#eddfcc, #fff) !important;
+}
+
+.Soundbar {
+  background-image: linear-gradient(#ffffff, #f3e5e5);
+  height: 65vh;
+  padding: 10px !important;
+  display: flex;
+  font-display: row !important;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+
+.Soundbar-item {
+  background-image: linear-gradient(#f3e4e4, #fff);
+}
+
+.img-soundbar {
+  position: relative;
+  height: 30vh;
+  margin-right: 90px;
+  bottom: -10rem;
+  width: 80%;
+  left: -2rem;
+}
+
+/* Right content */
+.content-speaker {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 30px;
+  align-items: flex-end;
+  justify-content: right;
+}
+
+.content-speaker :nth-child(2) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.content-speaker :nth-child(3) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 7px;
+  width: 10vw;
+}
+
+/* Left content */
+.content-soundbar {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 30px;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.content-soundbar :nth-child(2) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.content-soundbar :nth-child(3) {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 7px;
+  width: 10vw;
+}
